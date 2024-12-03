@@ -1,0 +1,31 @@
+#Weather Dashboard - Backend Development with TypeScript
+##This project is a backend service for a Weather Dashboard application that allows users to search for and view current and 5-day weather forecasts for various cities. The backend integrates with the OpenWeather API to fetch weather data, stores search history in a JSON file, and supports CRUD operations for managing city records. The entire application is built with TypeScript for enhanced reliability and maintainability and is deployed on Render.
+
+##Table of Contents 
+• Features
+• Getting Started 
+• Usage 
+• Features
+
+##Features
+•	Search for current and 5-day weather forecasts for any city.
+•	Save city search history with unique IDs.
+•	View a list of previously searched cities.
+•	Delete cities from search history.
+•	Integration with the OpenWeather API for reliable weather data.
+•	Fully implemented with TypeScript for type safety.
+•	Restful API design for scalability and simplicity.
+
+##Getting Started
+•	Node.js - Runtime environment.
+•	Express.js - Web framework for building REST APIs.
+•	TypeScript - Strongly typed programming language for robust code.
+•	fs module - File system operations for storing search history in searchHistory.json.
+•	OpenWeather API - Weather data provider.
+•	Render - Deployment platform. 
+
+##Usage
+•	Start the backend service.
+•	Use a REST client like Postman or cURL to interact with the endpoints.
+•	Connect the front end of the Weather Dashboard to the backend for a seamless user experience.
+
